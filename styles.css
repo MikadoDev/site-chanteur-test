@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    color: white;
+}
+
+
+/*menu*/
+
+.nav-bar {
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+
+.nav-container {
+    width: 100%;
+}
+
+.logo {
+    height: 5rem;
+    width: 11rem;
+    padding: 1.3rem;
+    margin-left: 35px;
+}
+
+.nav-container ul li {
+    list-style: none;
+    padding: 1rem;
+}
+
+li:hover {
+    color: #292929;
+    transition: 1s;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 3rem;
+    height: 100%;
+}
+
+
+/*presentation et boutique*/
+
+.singer {
+    height: 50rem;
+}
+
+.presentation {
+    background-color: yellow;
+    float: left;
+    height: 100%;
+    width: 50%;
+}
+
+.name {
+    font-size: 2rem;
+    color: black;
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+
+.presentation img {
+    height: 26rem;
+    width: 26rem;
+    border-radius: 13rem;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.singer-text {
+    text-align: justify;
+    margin: 1rem;
+    color: black;
+}
+
+
+/*store*/
+
+.store {
+    background-color: #292929;
+    float: right;
+    height: 100%;
+    width: 50%;
+    margin: 0;
+}
+
+.articles {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articles img {
+    height: 20rem;
+    width: 20rem;
+    margin-top: 1rem;
+}
+
+.articles:hover {
+    background-color: #5E5E5E;
+    border-radius: 2rem;
+    transition: 500ms;
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5rem;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer li svg {
+    height: 2rem;
+    width: 2rem;
+}
+
+svg:hover {
+    color: blue;
+}
