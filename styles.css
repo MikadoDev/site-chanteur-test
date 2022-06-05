@@ -1,6 +1,6 @@
     * {
         margin: 0;
-        color: white;
+        color: red;
     }
     /*menu burger*/
     
@@ -165,7 +165,7 @@
             height: auto;
             right: 0;
             left: 0;
-            transform: translate(1000px, 0);
+            transform: translate(-1000px, 0);
             transition: all 0.5s ease;
         }
         #lab {
@@ -176,5 +176,10 @@
             margin: 4px;
             background: linear-gradient(#fff 0%, #fff 20%, transparent 21%, transparent 40%, #fff 41%, #fff 60%, transparent 61%, transparent 80%, #fff 81%, #fff 100%);
             display: block;
+        }
+        .presentation img {
+            height: 14rem;
+            width: 14rem;
+            border-radius: 7rem;
         }
     }
